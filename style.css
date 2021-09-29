@@ -1,0 +1,90 @@
+.bank-details{
+    padding:10px 0;
+    margin:14px 0;
+    border:1px solid #fff;
+    border-radius:4px;
+}
+
+.bank-details > div {
+    display: flex;
+    padding:4px 0;
+}
+
+.bank-details > div > div {
+    flex-grow:1;
+    flex-basis:0;
+}
+
+.bank-details > div > div:first-child {
+    text-align:right;   
+}
+
+.bank-details > div > div:last-child {
+    padding:0 6px;
+}
+
+.container > div:last-child {
+    padding:16px 0;
+    text-align: center;
+}
+
+.container > div:last-child > .btn {
+    padding:6px 16px;
+}
+
+.container .row {
+    padding:6px 0;
+}
+
+.deposit-attachment-box {
+    padding:10px 16px;
+    border-radius:4px;
+    border:1px solid #fff;
+    text-align: center;
+    position: relative;
+}
+
+.deposit-attachment-box > h3 {
+    padding-top:12px;
+}
+
+.deposit-attachment-box > input {
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+    opacity: 0;
+    position: absolute;
+}
+
+.deposit-attachment-box > .btn {
+    font-size:1.6rem;
+    padding:8px 16px;
+}
+
+.form-group > input, label, select
+{
+    padding:8px 0;
+}
+
+.form-group > input,
+.form-group > select
+.form-group > textarea
+{
+    margin:4px 0;
+    padding:8px 6px;
+    border:1px solid #fff;
+    position: relative;
+}
+
+.nav{
+    padding:8px 16px;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    font-size:1.3rem;
+}
+
+.warning{
+    color:#ffff00;
+}
