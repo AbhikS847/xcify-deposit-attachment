@@ -1,3 +1,20 @@
+[data-name="btnremove"]{
+    position: absolute;
+    color:#fff;
+    padding:0;
+    top:0;
+    right:0;
+    padding:0 6px;
+    font-size:1.2rem;
+    display:none;
+}
+[data-name="btnremove"]:focus,
+[data-name="btnremove"]:hover{
+    outline:none;
+    box-shadow:none;
+    color:#fff;
+}
+
 .bank-details{
     padding:10px 0;
     margin:14px 0;
@@ -57,8 +74,9 @@
     position: absolute;
 }
 
-.deposit-attachment-box > .btn {
-    font-size:1.6rem;
+.deposit-attachment-box > .btn:not([data-name="btnremove"]){
+    font-size:2rem;
+    color:#fff;
     padding:8px 16px;
 }
 
